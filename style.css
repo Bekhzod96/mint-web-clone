@@ -38,3 +38,6 @@ form {
   height: 90%;
   background-color: white;
 }
+form * {
+  width: 100%;
+}
