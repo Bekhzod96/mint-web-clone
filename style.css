@@ -2,59 +2,114 @@
   /* border: 1px solid black; */
   margin: 0;
   padding: 0;
+  text-decoration-line: none;
 }
-body, form, button, input {
+body,
+form,
+button,
+input {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-color: #eceef1;
+  height: 100vh;
 }
 
 header {
-  height: 8vh;
+  /* height: 8vh; */
 }
 header section {
   height: 100%;
-  width: 25%;
+  /* width: 20%; */
   float: right;
   margin: 0 30px;
+  /* position: absolute; */
+  
 }
 main {
-  height: 82vh;
+  /* height: 82vh; */
+  padding: 30px;
 }
-footer {
-  height: 10vh;
+.intuit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+li {
+  display: inline-flex;
+  width: auto;
+  list-style: none;
+  margin: 0;
 }
 
 section {
   margin: 0 auto;
   width: 30%;
+  min-width: 350px;
   height: 100%;
 }
 article {
   width: 100%;
   height: 100%;
-  background-color: lightcyan;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  margin-top: 15px;
 }
 form {
   width: 100%;
   height: 90%;
+  margin: 0 auto;
   background-color: white;
 }
 form * {
   width: 100%;
 }
+
+label {
+  font-size: 14px;
+  color: #404040;
+  line-height: 2.5;
+}
+
+input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  color: #000000;
+  height: 34px;
+  /* padding-left: 10px; */
+  width: 100%
+}
+
+small {
+  font-size: 10px;
+  color: #444444;
+}
+
 #signin {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   /* text-align: right; */
-
 }
 
 #signin div {
   font-size: 12px;
   line-height: 1.5;
+}
+
+#signin a {
+  color: #0077c5;
 }
 
 #signin button {
@@ -72,10 +127,36 @@ h3 {
   color: #4c4c4c;
   font-weight: normal;
   text-align: center;
-  margin: 30px 0;
+  /* margin: 30px 0; */
+}
+
+.input-element {
+  margin: 0 0 20px 0;
 }
 
 article p {
   font-size: 14px;
   text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+article button {
+  background-color: #0077c5;
+  border: none;
+  height: 36px;
+  text-transform: capitalize;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 0 0 0;
+}
+
+i {
+  font-size: 12px;
+  color: #757575;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  /* height: 10vh; */
 }
