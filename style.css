@@ -66,15 +66,18 @@ article {
 
 .invisible {
   text-align: center;
-
+  padding: 15px;
   border: 1px solid #c7c7c7;
   border-top: none;
-  height: 40px;
+}
+
+.invisible a {
+  color: #0077c5;
 }
 
 form {
   width: 100%;
-  height: 395px;
+  /* height: 395px; */
   margin: 0 auto;
   background-color: white;
 }
@@ -99,7 +102,7 @@ input {
 
 small {
   font-size: 10px;
-  color: #444444;
+  color: #8d9096;
 }
 
 #signin {
@@ -146,19 +149,28 @@ article p {
 
 article button {
   background-color: #0077c5;
-  border: none;
-  height: 36px;
+  border: #0077c5;
+  height: 40px;
   text-transform: capitalize;
   color: #ffffff;
   border-radius: 4px;
-  margin: 10px 0 0 0;
+  margin: 10px 0 15px 0;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 }
 
 .agreement {
-  margin: 20px 0;
+  margin: 20px 0 0px 0px;
   font-size: 12px;
   color: #757575;
   text-align: center;
+}
+
+.agreement i {
+  line-height: 1.7;
+}
+
+.agreement a {
+  color: #0077c5;
 }
 
 footer {
@@ -171,4 +183,9 @@ footer {
 footer a {
   color: #505050;
   padding: 5px 10px;
+}
+
+footer p {
+  line-height: 1.5;
+  padding-bottom: 13px;
 }
