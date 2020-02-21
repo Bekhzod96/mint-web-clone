@@ -6,7 +6,7 @@ In this project, you’ll get a chance to rebuild the form used by Mint.com for 
 
 This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
-![Preview](https://github.com/Bekhzod96/MintSignUp/tree/feature-1/png/result.jpg)
+![Preview](https://rawcdn.githack.com/Bekhzod96/MintSignUp/3dd76e0d5a2434a65068821169b295c2c47559e3/png/result.jpg)
 
 Additional Microverse Requirements
 
