@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,7 @@ footer {
 
 section {
   margin: 0 auto;
-  width: 40%;
+  width: 30%;
   height: 100%;
 }
 article {
