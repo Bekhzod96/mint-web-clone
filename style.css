@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+}
+
+body,
+form,
+button,
+input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eceef1;
+  height: 800px;
+}
+
+section {
+  margin: 0 auto;
+  width: 380px;
+}
+
+nav section {
+  height: 100%;
+  width: 300px;
+  margin: 10px 0;
+  float: right;
+}
+
+main {
+  padding: 60px 0 0 0;
+}
+
+.intuit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  display: inline-flex;
+  width: auto;
+  list-style: none;
+  margin: 0;
+}
+
+article {
+  height: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  border-bottom: none;
+  margin-top: 15px;
+}
+
+.invisible {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #c7c7c7;
+  border-top: none;
+}
+
+footer a {
+  color: #505050;
+  padding: 0 0 10px 0;
+}
+
+.invisible a {
+  color: #0077c5;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+form * {
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  color: #404040;
+  line-height: 2.5;
+}
+
+input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  color: #000;
+  height: 34px;
+  width: 100%;
+}
+
+small {
+  font-size: 10px;
+  color: #8d9096;
+}
+
+#signin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#signin div {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#signin a {
+  color: #0077c5;
+}
+
+article button {
+  background-color: #0077c5;
+  border: #0077c5;
+  height: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px 0 15px 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+#signin button {
+  border: none;
+  border: 1px solid #4c4c4c;
+  background: #0077c5;
+  border-radius: 4px;
+  padding: 8px 20px;
+  color: #fff;
+  margin-left: 12px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #4c4c4c;
+  font-weight: normal;
+  text-align: center;
+}
+
+.input-element {
+  margin: 0 0 20px 0;
+}
+
+article p {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.agreement {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #757575;
+  text-align: center;
+}
+
+.agreement i {
+  line-height: 1.7;
+}
+
+footer {
+  color: #505050;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer p {
+  line-height: 1.5;
+}
