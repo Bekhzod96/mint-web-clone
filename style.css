@@ -3,12 +3,14 @@
   padding: 0;
   text-decoration-line: none;
 }
+
 body,
 form,
 button,
 input {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
   background-color: #eceef1;
   height: 800px;
@@ -20,9 +22,11 @@ nav section {
   margin: 10px 0;
   float: right;
 }
+
 main {
   padding: 60px 0 0 0;
 }
+
 .intuit {
   width: 100%;
   display: flex;
@@ -30,12 +34,14 @@ main {
   align-items: center;
   justify-content: space-around;
 }
+
 ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
+
 li {
   display: inline-flex;
   width: auto;
@@ -64,10 +70,12 @@ article {
   border: 1px solid #c7c7c7;
   border-top: none;
 }
+
 footer a {
   color: #505050;
   padding: 0 0 10px 0;
 }
+
 .invisible a {
   color: #0077c5;
 }
@@ -77,6 +85,7 @@ form {
   margin: 0 auto;
   background-color: white;
 }
+
 form * {
   width: 100%;
 }
@@ -115,6 +124,17 @@ small {
   color: #0077c5;
 }
 
+article button {
+  background-color: #0077c5;
+  border: #0077c5;
+  height: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px 0 15px 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
 #signin button {
   border: none;
   border: 1px solid #4c4c4c;
@@ -142,19 +162,8 @@ article p {
   padding: 20px 0 20px 0;
 }
 
-article button {
-  background-color: #0077c5;
-  border: #0077c5;
-  height: 40px;
-  text-transform: capitalize;
-  color: #fff;
-  border-radius: 4px;
-  margin: 10px 0 15px 0;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-}
-
 .agreement {
-  margin: 20px 0 0px 0px;
+  margin-top: 20px;
   font-size: 12px;
   color: #757575;
   text-align: center;
@@ -171,6 +180,7 @@ footer {
   text-align: center;
   margin: 20px 0;
 }
+
 footer p {
   line-height: 1.5;
 }
