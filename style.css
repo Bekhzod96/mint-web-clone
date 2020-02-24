@@ -51,11 +51,10 @@ section {
 article {
   height: 100%;
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
   border-bottom: none;
-
   margin-top: 15px;
 }
 
@@ -65,7 +64,10 @@ article {
   border: 1px solid #c7c7c7;
   border-top: none;
 }
-
+footer a {
+  color: #505050;
+  padding: 0 0 10px 0;
+}
 .invisible a {
   color: #0077c5;
 }
@@ -88,9 +90,8 @@ label {
 input {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
-  color: #000000;
+  color: #000;
   height: 34px;
-
   width: 100%;
 }
 
@@ -120,7 +121,7 @@ small {
   background: #0077c5;
   border-radius: 4px;
   padding: 8px 20px;
-  color: #ffffff;
+  color: #fff;
   margin-left: 12px;
 }
 
@@ -146,7 +147,7 @@ article button {
   border: #0077c5;
   height: 40px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #fff;
   border-radius: 4px;
   margin: 10px 0 15px 0;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
@@ -163,10 +164,6 @@ article button {
   line-height: 1.7;
 }
 
-.agreement a {
-  color: #0077c5;
-}
-
 footer {
   color: #505050;
   font-size: 12px;
@@ -174,11 +171,6 @@ footer {
   text-align: center;
   margin: 20px 0;
 }
-footer a {
-  color: #505050;
-  padding: 0 0 10px 0;
-}
-
 footer p {
   line-height: 1.5;
 }
