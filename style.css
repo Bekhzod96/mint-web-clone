@@ -29,7 +29,7 @@ nav section {
 }
 
 main {
-  padding: 60px 0 0 0;
+  padding: 60px 0 0;
 }
 
 .intuit {
@@ -73,7 +73,7 @@ article {
 
 footer a {
   color: #505050;
-  padding: 0 0 10px 0;
+  padding: 0 0 10px;
 }
 
 .invisible a {
@@ -131,7 +131,7 @@ article button {
   text-transform: capitalize;
   color: #fff;
   border-radius: 4px;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 15px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
 
@@ -153,13 +153,13 @@ h3 {
 }
 
 .input-element {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
 }
 
 article p {
   font-size: 14px;
   text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .agreement {

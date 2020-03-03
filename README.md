@@ -25,7 +25,7 @@
 
 👤 **Bekhzod Akhrorov**
 
-- Github:[@Bekhzod96](https://github.com/HADDADSOHAIB)
+- Github:[@Bekhzod96](https://github.com/Bekhzod96)
 - Twitter: [ @Begzod](https://twitter.com/25d47e8987f740b)
 - Linkedin:[@Bekhzod AKhrorov](https://www.linkedin.com/in/bekhzod-akhrorov-b24232113/)
 
